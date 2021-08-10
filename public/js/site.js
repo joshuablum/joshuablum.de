@@ -3137,10 +3137,10 @@ window.Alpine = alpinejs__WEBPACK_IMPORTED_MODULE_0__.default;
 alpinejs__WEBPACK_IMPORTED_MODULE_0__.default.start();
 var emojiArr = ['👋', '👋🏻', '👋🏼', '👋🏽', '👋🏾', '👋🏿'];
 var waveEl = document.querySelector('.wave');
-waveEl.textContent = emojiArr[Math.floor(Math.random() * emojiArr.length)];
+waveEl.innerText = emojiArr[Math.floor(Math.random() * emojiArr.length)];
 setInterval(function () {
-  return waveEl.textContent = emojiArr[Math.floor(Math.random() * emojiArr.length)];
-}, 2500); // Konami code
+  return waveEl.innerText = emojiArr[Math.floor(Math.random() * emojiArr.length)];
+}, 2500);
 
 /***/ }),
 

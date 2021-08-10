@@ -1,14 +1,7 @@
 <div class="flex flex-col items-center justify-center mx-auto mt-12 space-y-6">
-    <img src="https://joshuablum-de.test/assets/joshua-blum.jpg" alt="Picture of me" width="1000" height="1000" class="w-64 rounded-full">
-    <h3
-        class="text-2xl font-semibold"
-        x-data="{ emojis: ['👋', '👋🏻', '👋🏼', '👋🏽', '👋🏾', '👋🏿'] }"
-    >
-        Hi, ich bin Joshua
-        <span
-            class="wave"
-            {{# x-text="emojis[Math.floor(Math.random() * emojis.length)]"> #}}
-        </span>
+    <img src="https://joshuablum.de/assets/joshua-blum.jpg" alt="Picture of me" width="1000" height="1000" class="w-64 rounded-full">
+    <h3 class="text-2xl font-semibold">
+        Hi, ich bin Joshua <span class="wave"></span>
     </h3>
     <h4 class="text-xl text-center">Full Stack Entwickler & UI/UX Designer</h4>
     {{ partial:social }}

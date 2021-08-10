@@ -1219,6 +1219,10 @@ select {
 	--tw-bg-opacity: 1 !important;
 	background-color: rgba(31, 41, 55, var(--tw-bg-opacity)) !important;
 }
+.bg-red-50 {
+	--tw-bg-opacity: 1 !important;
+	background-color: rgba(254, 242, 242, var(--tw-bg-opacity)) !important;
+}
 .bg-green-50 {
 	--tw-bg-opacity: 1 !important;
 	background-color: rgba(236, 253, 245, var(--tw-bg-opacity)) !important;
@@ -1234,10 +1238,6 @@ select {
 .bg-gray-100 {
 	--tw-bg-opacity: 1 !important;
 	background-color: rgba(243, 244, 246, var(--tw-bg-opacity)) !important;
-}
-.bg-red-50 {
-	--tw-bg-opacity: 1 !important;
-	background-color: rgba(254, 242, 242, var(--tw-bg-opacity)) !important;
 }
 .fill-current {
 	fill: currentColor !important;
@@ -1257,9 +1257,9 @@ select {
 	padding-left: 1rem !important;
 	padding-right: 1rem !important;
 }
-.py-16 {
-	padding-top: 4rem !important;
-	padding-bottom: 4rem !important;
+.py-12 {
+	padding-top: 3rem !important;
+	padding-bottom: 3rem !important;
 }
 .px-6 {
 	padding-left: 1.5rem !important;
@@ -1268,10 +1268,6 @@ select {
 .py-2 {
 	padding-top: 0.5rem !important;
 	padding-bottom: 0.5rem !important;
-}
-.py-12 {
-	padding-top: 3rem !important;
-	padding-bottom: 3rem !important;
 }
 .pb-6 {
 	padding-bottom: 1.5rem !important;
@@ -1346,9 +1342,17 @@ select {
 	--tw-text-opacity: 1 !important;
 	color: rgba(55, 65, 81, var(--tw-text-opacity)) !important;
 }
-.text-red-500 {
+.text-red-400 {
 	--tw-text-opacity: 1 !important;
-	color: rgba(239, 68, 68, var(--tw-text-opacity)) !important;
+	color: rgba(248, 113, 113, var(--tw-text-opacity)) !important;
+}
+.text-red-800 {
+	--tw-text-opacity: 1 !important;
+	color: rgba(153, 27, 27, var(--tw-text-opacity)) !important;
+}
+.text-red-700 {
+	--tw-text-opacity: 1 !important;
+	color: rgba(185, 28, 28, var(--tw-text-opacity)) !important;
 }
 .text-green-400 {
 	--tw-text-opacity: 1 !important;
@@ -1381,18 +1385,6 @@ select {
 .text-gray-800 {
 	--tw-text-opacity: 1 !important;
 	color: rgba(31, 41, 55, var(--tw-text-opacity)) !important;
-}
-.text-red-400 {
-	--tw-text-opacity: 1 !important;
-	color: rgba(248, 113, 113, var(--tw-text-opacity)) !important;
-}
-.text-red-800 {
-	--tw-text-opacity: 1 !important;
-	color: rgba(153, 27, 27, var(--tw-text-opacity)) !important;
-}
-.text-red-700 {
-	--tw-text-opacity: 1 !important;
-	color: rgba(185, 28, 28, var(--tw-text-opacity)) !important;
 }
 .underline {
 	text-decoration: underline !important;

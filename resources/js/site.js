@@ -5,8 +5,5 @@ Alpine.start()
 let emojiArr = ['👋', '👋🏻', '👋🏼', '👋🏽', '👋🏾', '👋🏿']
 let waveEl = document.querySelector('.wave')
 
-waveEl.textContent = emojiArr[Math.floor(Math.random() * emojiArr.length)]
-
-setInterval(() => waveEl.textContent = emojiArr[Math.floor(Math.random() * emojiArr.length)], 2500)
-
-// Konami code
+waveEl.innerText = emojiArr[Math.floor(Math.random() * emojiArr.length)]
+setInterval(() => waveEl.innerText = emojiArr[Math.floor(Math.random() * emojiArr.length)], 2500)
