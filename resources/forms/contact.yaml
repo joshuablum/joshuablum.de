@@ -1,0 +1,13 @@
+title: Kontakt
+email:
+  # -
+  #   to: '{{ email }}'
+  #   from: post@joshuablum.de
+  #   subject: 'Vielen Dank für Ihre Anfrage!'
+  #   html: mail
+  -
+    to: hallo@joshuablum.de
+    reply_to: '{{ email }}'
+    subject: 'joshuablum.de - Neue Anfrage über Formular'
+    html: mail
+

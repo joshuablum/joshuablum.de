@@ -1,0 +1,25 @@
+fields:
+  -
+    handle: vorname
+    field:
+      display: Vorname
+      type: text
+      validate: required
+  -
+    handle: nachname
+    field:
+      display: Nachname
+      type: text
+      validate: required
+  -
+    handle: email
+    field:
+      display: E-Mail
+      type: text
+      validate: required
+  -
+    handle: nachricht
+    field:
+      display: Nachricht
+      type: textarea
+      validate: required

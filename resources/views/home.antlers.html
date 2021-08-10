@@ -1,0 +1,29 @@
+<div class="flex flex-col items-center justify-center mx-auto mt-12 space-y-6">
+    <img src="https://joshuablum-de.test/assets/joshua-blum.jpg" alt="Picture of me" width="1000" height="1000" class="w-64 rounded-full">
+    <h3
+        class="text-2xl font-semibold"
+        x-data="{ emojis: ['👋', '👋🏻', '👋🏼', '👋🏽', '👋🏾', '👋🏿'] }"
+    >
+        Hi, ich bin Joshua
+        <span
+            class="wave"
+            {{# x-text="emojis[Math.floor(Math.random() * emojis.length)]"> #}}
+        </span>
+    </h3>
+    <h4 class="text-xl text-center">Full Stack Entwickler & UI/UX Designer</h4>
+    {{ partial:social }}
+    {{#
+    <a href="https://www.openstreetmap.org/#map=11/50.9578/6.8816" class="px-4 py-2 font-medium bg-white rounded-md">
+        <span class="absolute inline-flex w-3 h-3 bg-green-400 rounded-full opacity-75 motion-safe:animate-ping"></span>
+        <span class="relative inline-flex w-3 h-3 bg-green-500 rounded-full"></span>
+        Aktuell in Köln, Deutschland
+    </a>
+    <div id='map' style='width: 400px; height: 300px;'></div>
+    #}}
+    {{# partial:notice #}}
+    <div id="ueber-mich" class="font-serif text-lg leading-normal prose font-base">
+        {{ content }}
+    </div>
+    {{# partial:work-samples #}}
+    {{ partial:contact }}
+</div>
