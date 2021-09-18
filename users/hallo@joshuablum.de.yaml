@@ -1,0 +1,9 @@
+name: 'Joshua Blum'
+super: true
+avatar: josblu.jpg
+id: 6d73d09d-6837-4cc5-b456-6f33f7a3515b
+password_hash: $2y$10$LcYsZh2sBeFMwsK14zbyb.g1m5XZqOmyVnUbXKugdQ3xrBsB1Gyu2
+preferences:
+  collections:
+    pages:
+      after_save: continue_editing

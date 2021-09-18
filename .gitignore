@@ -4,7 +4,6 @@
 /public/vendor/statamic
 /storage/*.key
 /storage/forms
-/users/*
 /vendor
 .env
 .env.backup
