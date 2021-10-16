@@ -15,7 +15,7 @@ module.exports = {
     extend: {
       colors: {
         sky: colors.sky,
-        'hot-pink': '#fd2d78'
+        // 'hot-pink': '#fd2d78'
       },
       fontFamily: {
         'sans': ['Inter', 'sans-serif'],

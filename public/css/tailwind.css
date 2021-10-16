@@ -1540,6 +1540,10 @@ select {
 	--tw-text-opacity: 1 !important;
 	color: rgba(145, 135, 255, var(--tw-text-opacity)) !important;
 }
+.hover\:text-\[\#C88E69\]:hover {
+	--tw-text-opacity: 1 !important;
+	color: rgba(200, 142, 105, var(--tw-text-opacity)) !important;
+}
 .focus\:border-gray-800:focus {
 	--tw-border-opacity: 1 !important;
 	border-color: rgba(31, 41, 55, var(--tw-border-opacity)) !important;
