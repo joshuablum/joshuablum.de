@@ -12,8 +12,8 @@ updated_at: 1628522391
 Joshua Amadeus Blum
 
 #### Postanschrift
-- Drususstraße 46
-- 40549 Düsseldorf
+- Gutenbergstr. 37-39
+- 50823 Köln
 - Deutschland
 
 #### Kontakt
