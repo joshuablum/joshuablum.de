@@ -1528,9 +1528,9 @@ select {
 	--tw-text-opacity: 1 !important;
 	color: rgba(119, 193, 210, var(--tw-text-opacity)) !important;
 }
-.hover\:text-\[\#0080FF\]:hover {
+.hover\:text-\[\#00AD9F\]:hover {
 	--tw-text-opacity: 1 !important;
-	color: rgba(0, 128, 255, var(--tw-text-opacity)) !important;
+	color: rgba(0, 173, 159, var(--tw-text-opacity)) !important;
 }
 .hover\:text-\[\#e32929\]:hover {
 	--tw-text-opacity: 1 !important;
@@ -1539,10 +1539,6 @@ select {
 .hover\:text-\[\#9187FF\]:hover {
 	--tw-text-opacity: 1 !important;
 	color: rgba(145, 135, 255, var(--tw-text-opacity)) !important;
-}
-.hover\:text-\[\#00AD9F\]:hover {
-	--tw-text-opacity: 1 !important;
-	color: rgba(0, 173, 159, var(--tw-text-opacity)) !important;
 }
 .focus\:border-gray-800:focus {
 	--tw-border-opacity: 1 !important;
