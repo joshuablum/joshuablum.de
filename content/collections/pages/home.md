@@ -21,6 +21,6 @@ Seit meiner Kindheit bin ich technikbegeistert und habe in meiner frühen Jugend
 ### Zu meiner Person
 Aufgewachsen in der schönen Kaiserstadt Aachen, führe ich ein Leben als ~~[digitaler Nomade](https://de.wikipedia.org/wiki/Digitaler_Nomade) und~~ **Minimalist**. Zu meinen Hobbys zählen unter anderem [**Calisthenics**](https://de.wikipedia.org/wiki/Calisthenics) und die **Gitarre**. Neben **Deutsch** spreche ich fließend **Englisch** und habe Grundkenntnisse in **Spanisch**, **Französisch** und **Niederländisch**.
 
-Austausch mit anderen Entwicklerinnen bereitet mir große Freude, weshalb ich das [Cologne.js Meetup](https://www.meetup.com/Cologne-js/) als Co-Organizer unterstütze. Auch habe ich scon bei diversen Meetups Talks und Vorträge gehalten.
+Austausch mit anderen Entwicklerinnen bereitet mir große Freude, weshalb ich das [Cologne.js Meetup](https://www.meetup.com/Cologne-js/) als Co-Organizer unterstütze. Zudem gebe ich gerne Talks und Vorträge bei diversen Meetups.
 
 Mit Anfang zwanzig wurden bei mir [Achalasie](https://de.wikipedia.org/wiki/Achalasie), eine Funktionsstörung des Ösophagus, und [Keratokonus](https://de.wikipedia.org/wiki/Keratokonus), eine Erkrankung der Hornhaut des Auges, diagnostiziert. Hier versuche ich durch offene Kommunikation und Hilfsbereitschaft die Aufmerksamkeit und das Verständnis für diese und andere seltene Krankheiten zu erhöhen.
