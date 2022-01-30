@@ -1,15 +1,11 @@
 const colors = require('tailwindcss/colors')
 
 module.exports = {
-  mode: 'jit',
-  // darkMode: 'media',
-  purge: {
-    content: [
-      './resources/**/*.antlers.html',
-      './resources/**/*.blade.php',
-      './content/**/*.md'
-    ]
-  },
+  content: [
+    './resources/**/*.antlers.html',
+    './resources/**/*.blade.php',
+    './content/**/*.md'
+  ],
   important: true,
   theme: {
     extend: {
@@ -23,7 +19,6 @@ module.exports = {
       },
     },
   },
-  variants: {},
   plugins: [
     require('@tailwindcss/forms'),
     require('@tailwindcss/typography'),
