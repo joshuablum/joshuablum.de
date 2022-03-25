@@ -4,14 +4,14 @@
     "keywords": ["statamic", "cms", "flat file", "laravel"],
     "type": "project",
     "require": {
-        "php": "^7.3 || ^8.0",
+        "php": "^8.0",
         "fideloper/proxy": "^4.2",
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^7.0.1",
         "laravel/framework": "^8.0",
         "laravel/tinker": "^2.0",
-        "statamic/cms": "3.2.*",
-        "statamic/ssg": "^0.9.0"
+        "statamic/cms": "3.3.*",
+        "statamic/ssg": "^1.0.0"
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.6",
