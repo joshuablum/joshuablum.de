@@ -19,7 +19,7 @@ Projekte, die mich am meisten motivieren und mir die größte Freude bereiten, s
 Seit meiner Kindheit bin ich technikbegeistert und habe in meiner frühen Jugend das Programmieren für mich entdeckt. Schon mit 16 habe ich neben der Schule den ersten Job bei einem EDV-Dienstleister begonnen, wo ich recht früh ziemlich viel Erfahrung sammeln konnte. Im Studium folgten dann weitere Nebentätigkeiten und auch der Start meiner bis heute andauernden Selbstständigkeit.
 
 ### Zu meiner Person
-Aufgewachsen in der schönen Kaiserstadt Aachen, führe ich ein Leben als ~~[digitaler Nomade](https://de.wikipedia.org/wiki/Digitaler_Nomade) und~~ **Minimalist**. Zu meinen Hobbys zählen unter anderem [**Calisthenics**](https://de.wikipedia.org/wiki/Calisthenics) und die **Gitarre**. Neben **Deutsch** spreche ich fließend **Englisch** und habe Grundkenntnisse in **Spanisch**, **Französisch** und **Niederländisch**.
+Aufgewachsen in der schönen Kaiserstadt Aachen, führe ich ein Leben als ~~[digitaler Nomade](https://de.wikipedia.org/wiki/Digitaler_Nomade) und~~ (❤️👩🏻‍❤️‍👨🏼🐶) **Minimalist**. Zu meinen Hobbys zählen unter anderem [**Calisthenics**](https://de.wikipedia.org/wiki/Calisthenics) und die **Gitarre**. Neben **Deutsch** spreche ich fließend **Englisch** und habe Grundkenntnisse in **Spanisch**, **Französisch** und **Niederländisch**.
 
 Austausch mit anderen Entwicklerinnen bereitet mir große Freude, weshalb ich das [Cologne.js Meetup](https://www.meetup.com/Cologne-js/) als Co-Organizer unterstütze. Zudem gebe ich gerne Talks und Vorträge bei diversen Meetups.
 
