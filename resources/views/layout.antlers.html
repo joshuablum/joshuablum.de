@@ -37,12 +37,23 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 
   <!-- Scripts -->
-  <script src="{{ mix src='/js/site.js' }}" defer></script>
+  <script src="{{ mix src="/js/site.js" }}" defer></script>
   {{ if environment === 'production' }}
   <script src="https://adorable-cheerful.joshuablum.cloud/script.js" data-site="LYEIBFEY" defer></script>
   {{ /if }}
 </head>
-<body class="font-sans text-gray-800 bg-gray-100 dark:bg-gray-900 dark:text-gray-50">
+<body
+  class="font-sans text-gray-800 bg-gray-100 dark:bg-gray-900 dark:text-gray-50"
+  x-init="$nextTick(() => {
+    let darkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+    let lightMode = window.matchMedia('(prefers-color-scheme: light)').matches
+    if (darkMode) {
+      fathom.trackGoal('FDVGAOXI', 0)
+    } else if (lightMode) {
+      fathom.trackGoal('FDPWWVVN', 0)
+    }
+  })"
+>
   {{ partial:banner }}
   <div class="max-w-2xl px-4 mx-auto sm:px-0">
     {{ partial:header }}
