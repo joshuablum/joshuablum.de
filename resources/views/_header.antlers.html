@@ -1,11 +1,10 @@
 <header class="max-w-sm px-4 mx-auto mt-6 md:max-w-3xl">
     <nav class="flex items-center justify-center">
-        <div>
-            <ul class="flex space-x-4 text-xl font-semibold">
-                <li><a href="/">Home</a></li>
-                <li><a href="/#ueber-mich">Über mich</a></li>
-                <li><a href="/#kontakt">Kontakt</a></li>
-            </ul>
-        </div>
+        <ul class="flex space-x-4 text-xl font-semibold">
+            {{ nav:header }}
+                <li><a href="{{ url }}">{{ title }}</a></li>
+            {{ /nav:header }}
+        </ul>
+        <button type="button" class="ml-4 text-2xl hover:bg-gray-200 dark:hover:bg-gray-600 hover:rounded p-1" x-on:click="$store.darkMode.toggle()" x-text="$store.darkMode.on ? '🌝' : '🌞'"></button>
     </nav>
 </header>

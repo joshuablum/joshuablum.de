@@ -1,0 +1,8 @@
+<div class="w-full mt-8 p-4 border-2 border-dashed border-gray-900 dark:border-white">
+    <h3 class="font-bold text-2xl font-serif">Neuste Blogartikel</h3>
+    {{ collection:articles limit=3 }}
+        <ul class="mt-4">
+            <a href="{{ url }}" class="text-xl font-medium hover:underline"><li>→ {{ title }} <span class="text-base font-normal text-gray-500 dark:text-gray-500">{{ date format="d.m.Y" }}</span></li></a>
+        </ul>
+    {{ /collection:articles }}
+</div>

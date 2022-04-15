@@ -1,0 +1,16 @@
+<div class="mt-16 w-full mx-auto">
+    <ul class="list-disc">
+        {{ collection:articles as="entries" sort="date:desc" }}
+            {{ entries group_by="date| F Y" }}
+                {{ groups }}
+                    <h3 class="text-xl font-bold">{{ group }}</h3>
+                    <div class="mt-4 space-y-2">
+                        {{ items }}
+                            <li><a href="{{ url }}" class="hover:underline text-lg font-medium">{{ title }}</li></a>
+                        {{ /items }}
+                    </div>
+                {{ /groups }}
+            {{ /entries }}
+        {{ /collection:articles }}
+    </ul>
+</div>

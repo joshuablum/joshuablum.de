@@ -6,10 +6,10 @@
             </h2>
             <p class="mt-4 text-lg leading-6 text-gray-500">
                 Alternativ können Sie auch direkt eine <a
-                    href="mailto:kontakt@joshuablum.de?subject=Anfrage%20%C3%BCber%20joshuablum.de&body=Nette%20Worte%20bitte%20hier%20einf%C3%BCgen..."
+                    href="{{ "mailto:kontakt@joshuablum.de" | obfuscate_email }}"
                     class="underline hover:text-gray-900">E-Mail an mich</a> senden
-                    {{# oder einen <a data-savvycal-embed
-                    href="https://savvycal.com/joshuablum/chat" class="underline hover:text-gray-900">Termin buchen</a> #}}
+                    oder einen <a data-savvycal-embed
+                    href="https://savvycal.com/joshuablum/chat" class="underline hover:text-gray-900">Termin buchen</a>.
             </p>
         </div>
         <div class="mt-12">

@@ -1,8 +1,9 @@
 <footer class="mt-12 space-y-2 text-center">
     <nav>
         <ul class="flex justify-center space-x-4">
-            <li><a href="/impressum">Impressum</a></li>
-            <li><a href="/datenschutz">Datenschutz</a></li>
+            {{ nav:footer }}
+                <li><a href="{{ url }}">{{ title  }}</a></li>
+            {{ /nav:footer }}
         </ul>
     </nav>
     <div class="space-y-4 text-sm">
@@ -21,7 +22,7 @@
     </div>
     <div class="pb-6">
         <small>
-            Verwendung ausschließlich technisch notwendiger Cookies <a href="https://media.giphy.com/media/HGe4zsOVo7Jvy/source.gif" onclick="fathom.trackGoal('OIEAEOHL', 0);">🍪</a>
+            Eat cookies, don't store them <a href="https://media.giphy.com/media/HGe4zsOVo7Jvy/source.gif" x-on:click="fathom.trackGoal('OIEAEOHL', 0)" x-on:mouseenter="$refs.cookieMonster.play()">🍪</a>
         </small>
     </div>
 </footer>

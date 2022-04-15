@@ -1,0 +1,17 @@
+tree:
+  -
+    id: 46a72856-e116-4e8e-b97d-64037c10c56a
+    title: Home
+    url: /
+  -
+    id: d5e11a89-916b-403a-a5e0-1fc93fd02891
+    title: 'Über mich'
+    url: '/#ueber-mich'
+  -
+    id: 4d0e7d05-0a98-4384-9e56-5b64aa0e430e
+    title: Blog
+    url: /blog
+  -
+    id: 57f1ec00-827b-4d4d-9e11-48980abdb175
+    title: Kontakt
+    url: '/#kontakt'
