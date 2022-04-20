@@ -1973,16 +1973,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v9.8.1",
+            "version": "v9.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "9f468689964ac80b674a2fe71a56baa7e9e20493"
+                "reference": "4d5a07640891b772188d7737348886a0222737d8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/9f468689964ac80b674a2fe71a56baa7e9e20493",
-                "reference": "9f468689964ac80b674a2fe71a56baa7e9e20493",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/4d5a07640891b772188d7737348886a0222737d8",
+                "reference": "4d5a07640891b772188d7737348886a0222737d8",
                 "shasum": ""
             },
             "require": {
@@ -2148,7 +2148,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2022-04-12T15:43:03+00:00"
+            "time": "2022-04-19T15:01:23+00:00"
         },
         {
             "name": "laravel/helpers",
@@ -4500,16 +4500,16 @@
         },
         {
             "name": "statamic/ssg",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/statamic/ssg.git",
-                "reference": "e2e2e786f6eb0623966cf708dd0adc0b1fbb84f2"
+                "reference": "bd2604bc7b0cc505531bfe52406af93123e51616"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/statamic/ssg/zipball/e2e2e786f6eb0623966cf708dd0adc0b1fbb84f2",
-                "reference": "e2e2e786f6eb0623966cf708dd0adc0b1fbb84f2",
+                "url": "https://api.github.com/repos/statamic/ssg/zipball/bd2604bc7b0cc505531bfe52406af93123e51616",
+                "reference": "bd2604bc7b0cc505531bfe52406af93123e51616",
                 "shasum": ""
             },
             "require": {
@@ -4542,9 +4542,9 @@
             "description": "Static site generator for Statamic 3.",
             "support": {
                 "issues": "https://github.com/statamic/ssg/issues",
-                "source": "https://github.com/statamic/ssg/tree/1.0.0"
+                "source": "https://github.com/statamic/ssg/tree/1.0.1"
             },
-            "time": "2022-03-08T20:38:04+00:00"
+            "time": "2022-04-18T14:46:35+00:00"
         },
         {
             "name": "statamic/stringy",
