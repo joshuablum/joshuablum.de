@@ -33,7 +33,10 @@
   x-data="konamiCode"
   x-on:keydown.document="handler"
 >
-  {{ partial:banner }}
+  {{ personal_details:twitter }}
+  {{ if banner:show }}
+    {{ partial:banner }}
+  {{ /if }}
   <div class="max-w-2xl px-4 mx-auto sm:px-0">
     {{ partial:header }}
     {{ template_content }}

@@ -1,8 +1,11 @@
-<div class="w-full mt-8 p-4 border-2 border-dashed border-gray-900 dark:border-white">
+<div class="w-full mt-8 p-4 border-y border-gray-900 dark:border-white">
     <h3 class="font-bold text-2xl font-serif">Neuste Blogartikel</h3>
     {{ collection:articles limit=3 }}
-        <ul class="mt-4">
-            <a href="{{ url }}" class="text-xl font-medium hover:underline"><li>→ {{ title }} <span class="text-base font-normal text-gray-500 dark:text-gray-500">{{ date format="d.m.Y" }}</span></li></a>
+        <ul class="mt-4 list-[]">
+            <li class="flex flex-col">
+                <span class="text-sm font-medium text-gray-500">{{ date format="d.m.Y" }}</span>
+                <a href="{{ url }}" class="text-xl font-medium hover:underline">→ {{ title }}</a> 
+            </li>
         </ul>
     {{ /collection:articles }}
 </div>

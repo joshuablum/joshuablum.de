@@ -5,8 +5,8 @@ tree:
     url: /
   -
     id: d5e11a89-916b-403a-a5e0-1fc93fd02891
-    title: 'Über mich'
-    url: '/#ueber-mich'
+    title: Über
+    url: '/#ueber'
   -
     id: 4d0e7d05-0a98-4384-9e56-5b64aa0e430e
     title: Blog
