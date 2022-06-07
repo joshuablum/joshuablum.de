@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "166a4fc795ba216ee9d0088c799577ba",
+    "content-hash": "8e5124ba77e74f13c7fc43fb319d79cc",
     "packages": [
         {
             "name": "ajthinking/archetype",
@@ -4506,6 +4506,50 @@
                 }
             ],
             "time": "2022-06-02T16:36:15+00:00"
+        },
+        {
+            "name": "statamic/seo-pro",
+            "version": "3.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/statamic/seo-pro.git",
+                "reference": "d1546e190649298a0d38a1c18013f341614b78cd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/statamic/seo-pro/zipball/d1546e190649298a0d38a1c18013f341614b78cd",
+                "reference": "d1546e190649298a0d38a1c18013f341614b78cd",
+                "shasum": ""
+            },
+            "require": {
+                "statamic/cms": "~3.2.15 || ~3.3.0"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^5.20.0 || ^6.22.0 || ^7.0"
+            },
+            "type": "library",
+            "extra": {
+                "statamic": {
+                    "name": "Seo Pro",
+                    "description": "Seo Pro addon"
+                },
+                "laravel": {
+                    "providers": [
+                        "Statamic\\SeoPro\\ServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Statamic\\SeoPro\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "support": {
+                "issues": "https://github.com/statamic/seo-pro/issues",
+                "source": "https://github.com/statamic/seo-pro/tree/3.1.0"
+            },
+            "time": "2022-03-17T20:34:53+00:00"
         },
         {
             "name": "statamic/ssg",
