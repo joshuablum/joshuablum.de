@@ -4,6 +4,7 @@
 /public/vendor/statamic
 /public/css/*
 /public/js/*
+/public/static
 /storage/*.key
 /storage/forms
 /vendor
