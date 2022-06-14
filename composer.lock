@@ -2612,16 +2612,16 @@
         },
         {
             "name": "league/flysystem",
-            "version": "3.0.20",
+            "version": "3.0.21",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "42a2f47dcf39944e2aee1b660ee55ab6ef69b535"
+                "reference": "8f1fcf9d2304ff77a006aa36dd2cb5f236999b12"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/42a2f47dcf39944e2aee1b660ee55ab6ef69b535",
-                "reference": "42a2f47dcf39944e2aee1b660ee55ab6ef69b535",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/8f1fcf9d2304ff77a006aa36dd2cb5f236999b12",
+                "reference": "8f1fcf9d2304ff77a006aa36dd2cb5f236999b12",
                 "shasum": ""
             },
             "require": {
@@ -2682,7 +2682,7 @@
             ],
             "support": {
                 "issues": "https://github.com/thephpleague/flysystem/issues",
-                "source": "https://github.com/thephpleague/flysystem/tree/3.0.20"
+                "source": "https://github.com/thephpleague/flysystem/tree/3.0.21"
             },
             "funding": [
                 {
@@ -2698,7 +2698,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-05-25T19:18:39+00:00"
+            "time": "2022-06-12T17:54:28+00:00"
         },
         {
             "name": "league/glide",
@@ -4130,24 +4130,24 @@
         },
         {
             "name": "rebing/graphql-laravel",
-            "version": "8.2.1",
+            "version": "8.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rebing/graphql-laravel.git",
-                "reference": "5658df2b63998f3701d371958ce070747a0b2a3f"
+                "reference": "11f470c2c4f070deb0c613d8ad117133281ee1f6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rebing/graphql-laravel/zipball/5658df2b63998f3701d371958ce070747a0b2a3f",
-                "reference": "5658df2b63998f3701d371958ce070747a0b2a3f",
+                "url": "https://api.github.com/repos/rebing/graphql-laravel/zipball/11f470c2c4f070deb0c613d8ad117133281ee1f6",
+                "reference": "11f470c2c4f070deb0c613d8ad117133281ee1f6",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
-                "illuminate/contracts": "^6.0|^7.0|^8.0|^9.0",
-                "illuminate/support": "^6.0|^7.0|^8.0|^9.0",
+                "illuminate/contracts": "^6.0|^8.0|^9.0",
+                "illuminate/support": "^6.0|^8.0|^9.0",
                 "laragraph/utils": "^1",
-                "php": ">= 7.2",
+                "php": ">= 7.4",
                 "thecodingmachine/safe": "^1.3",
                 "webonyx/graphql-php": "^14.6.4"
             },
@@ -4166,7 +4166,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "8.1-dev"
+                    "dev-master": "8.3-dev"
                 },
                 "laravel": {
                     "providers": [
@@ -4224,7 +4224,7 @@
             ],
             "support": {
                 "issues": "https://github.com/rebing/graphql-laravel/issues",
-                "source": "https://github.com/rebing/graphql-laravel/tree/8.2.1"
+                "source": "https://github.com/rebing/graphql-laravel/tree/8.3.0"
             },
             "funding": [
                 {
@@ -4232,7 +4232,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-01-30T19:36:07+00:00"
+            "time": "2022-06-11T20:38:16+00:00"
         },
         {
             "name": "seld/jsonlint",
@@ -4410,16 +4410,16 @@
         },
         {
             "name": "statamic/cms",
-            "version": "v3.3.15",
+            "version": "v3.3.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/statamic/cms.git",
-                "reference": "592d741140e79aeab55688b645f614a3ee094e51"
+                "reference": "c9ed596c46a96d54ebb5d8b4852c9a182d9b29dc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/statamic/cms/zipball/592d741140e79aeab55688b645f614a3ee094e51",
-                "reference": "592d741140e79aeab55688b645f614a3ee094e51",
+                "url": "https://api.github.com/repos/statamic/cms/zipball/c9ed596c46a96d54ebb5d8b4852c9a182d9b29dc",
+                "reference": "c9ed596c46a96d54ebb5d8b4852c9a182d9b29dc",
                 "shasum": ""
             },
             "require": {
@@ -4497,7 +4497,7 @@
             ],
             "support": {
                 "issues": "https://github.com/statamic/cms/issues",
-                "source": "https://github.com/statamic/cms/tree/v3.3.15"
+                "source": "https://github.com/statamic/cms/tree/v3.3.16"
             },
             "funding": [
                 {
@@ -4505,7 +4505,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-06-09T14:47:45+00:00"
+            "time": "2022-06-13T21:19:21+00:00"
         },
         {
             "name": "statamic/seo-pro",
