@@ -45,6 +45,16 @@ sections:
           required: true
           validate:
             - required
+          instructions_position: above
+          listable: hidden
+          visibility: visible
+          mode: single
+          time_enabled: false
+          time_seconds_enabled: false
+          full_width: false
+          inline: false
+          columns: 1
+          rows: 1
       -
         handle: tags
         field:
@@ -53,3 +63,12 @@ sections:
             - tags
           display: Tags
           mode: select
+  SEO:
+    display: SEO
+    fields:
+      -
+        handle: seo
+        field:
+          type: seo_pro
+          listable: false
+          display: SEO
